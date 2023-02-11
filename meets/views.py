@@ -142,6 +142,7 @@ def meetingeView(request,uuid):
             serializer.save()
             return Response(serializer.data)
         return Response(serializer.errors)
+    # 
     # elif request.method == "POST":
     #     serializer = MeetingSerializers(item, data=request.data, partial=True,context={'request': request})
     #     if serializer.is_valid():
