@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-czkk9v8wfbukv=0$(6u=qx1rh(-h3cz=f5yr*0yuj9mc0811m^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.18','127.0.0.1','localhost','172.20.10.7','192.168.1.104','192.168.0.119','192.168.1.101','octopus-app-8uosp.ondigitalocean.app','starfish-app-3c8ff.ondigitalocean.app',".ondigitalocean.app"]
+ALLOWED_HOSTS = ['192.168.1.18','127.0.0.1','localhost','172.20.10.7','192.168.1.104','192.168.0.119','192.168.1.101','octopus-app-8uosp.ondigitalocean.app','starfish-app-3c8ff.ondigitalocean.app',".ondigitalocean.app","sea-turtle-app-xw9tc.ondigitalocean.app"]
 
 
 # Application definition
@@ -172,7 +172,8 @@ CORS_ALLOWED_ORIGINS = [
 "http://192.168.0.119:3000",
 "http://192.168.43.209:3000",
 "http://192.168.1.101:3000",
-".ondigitalocean.app"
+".ondigitalocean.app",
+"sea-turtle-app-xw9tc.ondigitalocean.app",
 "https://starfish-app-3c8ff.ondigitalocean.app",
 "https://octopus-app-8uosp.ondigitalocean.app",
 "http://127.0.0.1:3000",
