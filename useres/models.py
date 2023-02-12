@@ -17,6 +17,7 @@ client project name  meeting phone
 eng [projects] location ip phone [meeting] 
 designer  [projects] location ip phone [meeting] 
 manager *[projects] location ip phone *[meeting]  
+updating
 
 '''
 
